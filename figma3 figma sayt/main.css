@@ -1,0 +1,824 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+}
+.navbar{
+	width: 100%;
+	height: 70px;
+	display: flex;
+}
+.logo{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.logo h1{
+	font-size: 24px;
+	font-family: sans-serif;
+	position: relative;
+	left: 34%;
+	font-weight: 800;
+}
+.home{
+	width: 70%;
+	height: 100%;
+	display: flex;
+}
+.home h1{
+	font-size: 20px;
+	padding: 20px;
+	font-family: calibri;
+	position: relative;
+	left: 34%;
+}
+.home i{
+	position: relative;
+	left: 35%;
+	top: 37%;
+}
+/*navbar tugadi*/
+
+
+
+/*contentar boshadi*/
+
+.content1{
+	width: 100%;
+	height: 722px;
+	border: 1px solid red;
+}
+.content1 img{
+	width: 100%;
+	height: 100%;
+}
+.content1_tetx{
+	width: 600px;
+	height: 500px;
+	position: relative;
+	top: -80%;
+	left: 10%;
+}
+.content1_tetx h4{
+	color: white;
+	font-family: calibri;
+	position: relative;
+	left: 30%;
+}
+.content1_tetx h1{
+	font-size: 44px;
+	color: white;
+	text-align: center;
+	font-family: Roboto;
+}
+.content1_tetx button{
+	width: 190px;
+	height: 40px;
+	background-color: #1F1E1E;
+	color: white;
+	border-radius: 4px;
+	border: none;
+	position: relative;
+	left: 34%;
+}
+
+.content1_tetx button:active{
+	background-color: black;
+}
+/*content1 tugadi*/
+
+
+/*content2 boshlandi*/
+.content2{
+	width: 100%;
+	height: 600px;
+	display: flex;
+}
+.content2_img1{
+	width: 50%;
+	height: 100%;
+	border: 5px solid white;
+}
+.content2_img1 img{
+	width: 100%;
+	height: 100%;
+}
+.content2_img1 h1{
+	position: relative;
+	top: -20%;
+	color: #FFFFFF;
+	font-family:"Gill Sans", sans-serif;
+	left: 6%;
+}
+.content2_img1 p{
+	color: white;
+	position: relative;
+	top: -20%;
+	left: 6%;
+}
+.content2_img2{
+	width: 50%;
+	height: 100%;
+	border: 5px solid white;
+}
+.content2_img2 img{
+	width: 100%;
+	height: 100%;
+}
+.content2_img2 h1{
+	position: relative;
+	top: -20%;
+	color: white;
+	font-family:"Gill Sans", sans-serif;
+}
+.content2_img2 p{
+	position: relative;
+	top: -20%;
+	color: white;
+}
+/*content2 tugadi*/
+
+
+
+/*content3 boshlabdi*/
+.content3{
+	width: 100%;
+	height: 500px;
+}
+.content3_text{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content3_text h1{
+	color: #1F1E1E;
+}
+.content3_rklm{
+	width: 100%;
+	height: 50%;
+	display: flex;
+}	
+.content3_rklm1{
+	width: 33.3%;
+	height: 100%;
+}
+.content3_rklm1 button{
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	border: 0.5px solid #8f9291;
+	background-color: white;
+	position: relative;
+	left: 45%;
+}
+.content3_rklm1 h1{
+	font-size: 20px;
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    position: relative;
+    left: 37%;	
+    top: 5%;
+}
+.content3_rklm1 p{
+	font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    left: 20%;
+}
+
+
+
+
+
+
+.content3_rklm2{
+	width: 33.3%;
+	height: 100%;
+}
+.content3_rklm2 button{
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	border: 0.5px solid #8f9291;
+	background-color: white;
+	position: relative;
+	left: 45%;
+}
+.content3_rklm2 h1{
+	font-size: 20px;
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    position: relative;
+    left: 37%;	
+    top: 5%;
+}
+.content3_rklm2 p{
+	font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    left: 20%;
+}
+
+
+
+
+
+
+
+
+.content3_rklm3{
+	width: 33.3%;
+	height: 100%;
+}
+.content3_rklm3 button{
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	border: 0.5px solid #8f9291;
+	background-color: white;
+	position: relative;
+	left: 45%;
+}
+.content3_rklm3 h1{
+	font-size: 20px;
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.content3_rklm3 p{
+	font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+/*content3 tugadi*/
+
+
+
+/*content4 boshlandi*/
+.content4{
+	width: 100%;
+	height: 530px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content4_rek_img1{
+	width: 30%;
+	height: 90%;
+	border: 5px solid white;
+	background-color: #EEEEE9;
+}
+.content4_rek_img1 img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+.content4_rek_img2{
+	width: 30%;
+	height: 90%;
+	border: 5px solid white;
+	background-color: #EEEEE9;
+}
+.content4_rek_img2 img{
+	width: 100%;
+	height: 100%;
+}
+.content4_rek_img3{
+	width: 30%;
+	height: 90%;
+	border: 5px solid white;
+	background-color: #EEEEE9;
+}
+.content4_rek_img3 img{
+	width: 100%;
+	height: 100%;
+}
+
+/*content4 tugadi*/
+
+
+
+
+
+/*content5 boshlnadi*/
+.content5{
+	width: 100%;
+	height: 1450px;
+}
+.content5_text{
+	width: 400px;
+	height: 300px;
+}
+.content5_text h1{
+	font-size: 48px;
+	font-weight: 400;
+}
+.content5_text p{
+	line-height: 20px;
+	font-family: Roboto;
+}
+
+.content5_img1{
+	width: 440px;
+	height: 300px;
+	position: relative;
+	left: 55%;
+	top: -17%;
+	display: flex;
+}
+.content5_img1 img{
+	width: 70%;
+	height: 100%;
+}
+
+.content5_img1 p{
+	position: relative;
+	top: 40%;
+	left: 5%;
+	font-size: 15px;
+}
+
+
+
+
+
+.content5_img2{
+	width: 470px;
+	height: 340px;
+	position: relative;
+	top: -10%;
+	left: 10%;
+	display: flex;
+}
+.content5_img2 img{
+	width: 75%;
+	height: 100%;
+}
+.content5_img2 p{
+	position: relative;
+	top: 40%;
+	left: 3%;
+}
+
+
+
+
+.content5_img3{
+	width: 440px;
+	height: 300px;
+	position: relative;
+	left: 60%;
+	top: -17%;
+	display: flex;
+}
+.content5_img3 img{
+	width: 70%;
+	height: 100%;
+}
+
+.content5_img3 p{
+	position: relative;
+	top: 40%;
+	left: 5%;
+	font-size: 15px;
+}
+
+
+
+
+.content5_img4{
+	width: 470px;
+	height: 350px;
+	position: relative;
+	top: -13%;
+	left: 30%;
+	display: flex;
+}
+.content5_img4 img{
+	width: 75%;
+	height: 100%;
+}
+.content5_img4 p{
+	position: relative;
+	top: 40%;
+	left: 3%;
+}
+/*content5 tugadi*/
+
+
+
+/*content6 boshkadi*/
+.content6{
+	width: 100%;
+	height: 560px;
+}
+.content6_text{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.content6_text h1{
+	font-style: 30px;
+}
+.content6_rklm{
+	width: 75%;
+	height: 85%;
+	border: 1px solid ;
+	position: relative;
+	left: 12%;
+	display: flex;
+}
+.content6_rek_img{
+	width: 50%;
+	height: 100%;
+}
+.content6_rek_img img{
+	width: 100%;
+	height: 100%;
+}
+.content6_rek_text{
+	width: 50%;
+	height: 100%;
+	background-color: #D5D8D1;
+	text-align: center;
+}
+.content6_rek_text h2{
+	font-weight: 400;
+	text-align: center;
+}
+
+/*content6 tugadi*/
+
+
+
+/*contet7 boshlandi*/
+.content7{
+	width: 100%;
+	height: 240px;	
+}
+.content7_rklm{
+	width: 90%;
+	height: 100%;
+	position: relative;
+	left: 5%; 	
+}
+.content7_rklm1{
+	width: 23%;
+	height: 100%;
+}
+
+/*content7 tugadi */
+
+
+/*content8 bosh*/
+.content8{
+	width: 100%;
+	height: 600px;
+	background-color: #B6ACA9;
+}
+.content8 h1{
+	font-weight: 400;
+	position: relative;
+	top: 15%;
+}
+.content8  img{
+	width: 700px;
+	position: relative;
+	top: 20%;
+	left: 10%;
+}
+.content8__text{
+	width: 350px;
+	height: 250px;
+	position: relative;
+	left: 70%;
+	top: -40%;
+}
+.content8__text p{
+	text-align: center;
+}
+.content8__text button{
+	width: 130px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #1F1E1E;
+	color: white;
+	border: none;
+	position: relative;
+	left: 12%;
+}	
+
+/*content8 tugadi*/
+
+
+
+
+
+/*content9 boshlandi*/
+
+.content9{
+	width: 90%;
+	height: 500px;
+	position: relative;
+	left: 5%;
+}
+.content9_text{
+	width: 100%;
+	height: 130px;
+}
+.content9_text h4{
+	font-size: 13px;
+	font-weight: 400;
+	position: relative;
+	left: 10%;
+}
+.content9_text h1{
+	font-family: sans-serif;
+	font-weight: 500;
+	position: relative;
+	left: 9%;
+}
+.content9 h2{
+	font-weight: 400;
+	font-size: 17px;
+	position: relative;
+	left: 44%;
+	top: 10%;
+}
+.content9 h3{
+	font-size: 17px;
+	font-weight: 400;
+	position: relative;
+	left: 44%;
+	top: 10%;
+}
+.content9 h5{
+	font-size: 17px;
+	font-weight: 400;
+	position: relative;
+	left: 44%;
+	top: 10%;
+}
+.content9 button{
+	width: 160px;
+	height: 40px;
+	background-color: #1F1E1E;
+	color: white;
+	border: none;
+	border-radius: 5%;
+	position: relative;
+	left: 75%;
+	top: 20%;
+}
+/*conten9 tugadi*/
+
+
+/*content10 boshlandi*/
+
+.content10{
+	width: 100%;
+	height: 600px;
+}
+.content10_text{
+	width: 90%;
+	height: 220px;	
+	position: relative;
+	left: 5%;
+	top: 5%;
+}
+.content10_text h1{
+	font-weight: 450;
+	position: relative;
+	left: 40%;
+}
+.content10_text button{
+	width: 160px;
+	height: 40px;
+	border:none;
+	background-color:#1F1E1E;
+	color: white;
+	border-radius: 4px;
+	position: relative;
+	left: 41%; 
+}
+.content10_img{
+	width: 90%;
+	height: 50%;
+	position: relative;
+	left: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.content10_img1{
+	width: 25%;
+	height: 100%;
+	border:20px solid white;
+}
+.content10_img1 img{
+	width: 100%;
+	height: 100%;
+}
+.content10_img1 p{
+	font-family: sans-serif;
+	position: relative;
+	top: 30%;
+	left: 50%;
+}
+.content10_img2{
+	width: 25%;
+	height: 100%;
+	border:20px solid white;
+
+}
+.content10_img2 p{
+	font-family: sans-serif;
+	position: relative;
+	top: 70%;
+}
+.content10_img2 img{
+	width: 100%;
+	height: 100%;
+	}
+.content10_img3{
+	width: 25%;
+	height: 100%;
+	border:20px solid white;
+
+}
+.content10_img3 img{
+	width: 100%;
+	height: 100%;
+	}
+.content10_img4{
+	width: 25%;
+	height: 100%;
+	border:20px solid white;
+
+}
+.content10_img4 p{
+	font-family: sans-serif;
+	position: relative;
+	top: 70%;			
+}
+.content10_img4 img{
+	width: 100%;
+	height: 100%;
+}
+/*content10 tugadi*/
+
+
+
+/*content11 boshlandi*/
+
+.footer1{
+	width: 100%;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+}
+.footer1_text1{
+	width: 45%;
+	height: 100%;
+}
+.footer1_text1 h1{
+	font-weight: 450;
+	position: relative;
+	top: 30%;
+}
+.footer1_text1 p{
+	position: relative;
+	top: 40%;
+}
+.footer1_text2{
+	width: 45%;
+	height: 100%;
+	display: flex;
+}
+.footer1_text2 h3{
+	font-weight: 400;
+	font-style: 20px;
+	position: relative;
+	top: 20%;
+}
+.footer1_text2 h4{
+	font-weight: 400;
+	font-style: 20px;
+	position: relative;
+	top: 35%;
+	left: 15%;
+}
+.footer1_text2 h5{
+	font-weight: 400;
+	font-style: 20px;
+	position: relative;
+	top: 35%;
+	left: 35%;
+}
+
+/*foooter1 tugadi*/
+
+
+
+
+/*footer2 boshlandi*/
+.footer2{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+}
+.footer2_tetx1{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer2_tetx1 img{
+	width: 45px;
+	position: relative;
+	top: -13%;
+	left: 25%;
+}
+.footer2_tetx1 h1{
+	font-size: 25px;
+	font-weight: 460;
+	position: relative;
+	right: 7%;
+}
+.footer2_tetx2{
+	width: 30%;
+	height: 100%;
+}
+.footer2_tetx2 h1{
+	font-size: 20px;
+	font-weight: 450;
+	position: relative;
+	top: 2%;
+	right: 5%;
+
+}
+.footer2_tetx2 img{
+	width: 45px;
+	position: relative;
+	top: -13%;
+	left: 25%;
+}
+.footer2_tetx2{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer2_tetx3{
+	width: 30%;
+	height: 100%;
+}
+.footer2_tetx3{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer2_tetx3 h1{
+	font-size:20px;
+	font-weight: 450;
+	position: relative;
+	right: 5%; 
+}
+
+.footer2_tetx3 img{
+	width: 45px;
+	position: relative;
+	top: -10%;
+	left: 3%;
+}
